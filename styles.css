@@ -43,6 +43,36 @@ header {
   margin-top: 8px;
 }
 
+.info {
+  padding: 0 200px;
+}
+
+.header-info {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 75px;
+}
+
+.info li {
+  width: 125px;
+}
+
+.info p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.image-info {
+  border: var(--call-background) 4px solid;
+  border-radius: 10px;
+  height: 125px;
+}
+
 .hero,
 footer,
 header {
